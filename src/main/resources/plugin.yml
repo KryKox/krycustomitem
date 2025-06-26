@@ -1,0 +1,12 @@
+name: CustomItems
+version: 1.0
+main: fr.krykox.customitems.KryCustomItems
+api-version: 1.21
+commands:
+  customitem:
+    description: Donne un objet custom au joueur
+    usage: /customitem <id>
+    aliases: [ci, citem]
+  items:
+    description: Ouvre un menu avec les objets personnalisés.
+    usage: /items
